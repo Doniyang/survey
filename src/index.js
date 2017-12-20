@@ -1,0 +1,10 @@
+import Router from './js/router.js';
+import routes from './config/index.js';
+import 'AUI/css/aui.2.0.css';
+import './css/style.css';
+import $ from 'jquery';
+import './lib/aui/script/aui-tab.js';
+window.$ = $;
+const router = new Router(document.body.querySelector('#app'), routes);
+window.$router = router;
+router.init();

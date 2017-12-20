@@ -1,0 +1,37 @@
+<section data-role="page" class="aui-content">
+	<header class="aui-bar aui-bar-nav">
+		<a class="aui-pull-left aui-btn">
+			<i class="aui-iconfont aui-icon-left"></i>
+		</a>
+		<div class="aui-title">创建问卷</div>
+		<a class="aui-pull-right aui-btn">
+			<i class="aui-iconfont aui-icon-more"></i>
+		</a>
+	</header>
+	<main class="aui-content">
+		<form data-role="form" class="aui-card-list">
+			<input type="hidden" name="type" value="0">
+			<input type="hidden" name="order" value="1">
+			<div class="aui-card-list-header">
+			         <textarea name="problem" placeholder="请输入问题"></textarea>	
+			</div>
+                                             <div class="aui-card-list-content-padded">
+                                             	           <p>
+                                             	           	   <input type="text" name="answer" placeholder="请输入选项">
+                                             	           </p> 
+                                             	            <p>
+                                             	           	   <input type="text" name="answer" placeholder="请输入选项">
+                                             	           </p>
+                                             	           <p>       
+                                             	           	  <a class="aui-btn">
+                                             	           	  	<i class="aui-iconfont aui-icon-plus"></i>
+                                             	           	       <span> 添加选项</span> 
+                                             	           	</a>
+                                             	           </p>
+                                             </div>
+                                            <div class="aui-card-list-footer">
+                                                         <button class="aui-btn aui-btn-primary aui-btn-block" type="button" onclick="addTopic(this)">创建</button>
+                                             </div>
+		</form>
+	</main>
+</section>

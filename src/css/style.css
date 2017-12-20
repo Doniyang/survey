@@ -1,0 +1,120 @@
+.most-sign-container{
+         position: relative;
+         display: block;
+         padding: 0;
+         margin:0;
+         width: 100%;
+         height: 100vh;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         background: -webkit-linear-gradient(#0099CC, #3333FF 60%);
+         background: -o-linear-gradient(#0099CC, #3333FF 60%);
+         background: -moz-linear-gradient(#0099CC, #3333FF 60%);
+         background: linear-gradient(#0099CC, #3333FF 60%);
+}
+
+.most-sign-header{
+       position: relative;
+       display: block;
+       height: 33vh;
+       margin:0;
+       padding-top:10vh; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+       
+}
+.most-sign-header:before,.most-sign-header:after{
+        content: "";
+        position: absolute;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+.most-avatar-box{
+          width: 13vh;
+          height: 13vh;
+          display: block;
+          line-height: 13vh;
+          vertical-align: middle;
+          text-align: center;
+          margin:0  auto;
+          background-color: #FFFFFF;
+          -webkit-box-shadow: 0px 1px 4px 0px #FFFFFF; 
+          -moz-box-shadow: 0px 1px 4px 0px #FFFFFF; 
+          box-shadow: 0px 1px 4px 0px #FFFFFF;
+          -webkit-border-radius:50%;
+          border-radius: 50%;	
+}
+
+.most-avatar-box>.aui-icon-my{
+	font-size: 2.5rem;
+}
+.most-sign-main{
+           position: relative;
+           display: block;
+           height: 34vh;
+           padding:  0 1rem;
+           -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+           box-sizing: border-box;	
+}
+.most-form-item{
+        position: relative;
+        height: 2.8rem;
+        display: box;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: nowrap;
+        -moz-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        -o-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: space-between;
+        -moz-justify-content: space-between;
+        -ms-justify-content: space-between;
+        -o-justify-content: space-between;
+        justify-content: space-between;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+}
+.most-form-item>.most-field-icon{
+        width: 1.7rem;
+        color: #FFFFFF;
+}
+
+.most-form-item>.most-field-block{
+        display: block;
+        flex: 1;
+}
+button.aui-btn-primary{
+	border:1px solid #00acc1;
+}
+
+.most-field-block>input{
+          color: #FFFFFF;
+}
+
+.most-field-block>input::-webkit-input-placeholder{ 
+        color: #FFFFFF; 
+} 
+.most-field-block>input:-moz-placeholder{ 
+        color: #FFFFFF; 
+} 
+.most-field-block>input::-moz-placeholder{ 
+      color: #FFFFFF; 
+} 
+.most-field-block>input:-ms-input-placeholder{ 
+        color: #FFFFFF; 
+} 
+
+
+
